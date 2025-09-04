@@ -1,0 +1,32 @@
+
+.cardposition {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    width: 80%;
+    text-align: center;
+    columns: 2;
+    gap: 20px;
+    border: 1 px solid black;
+    flex-direction: row;
+    
+}
+
+.card-alignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;   
+}
+
+.card {
+display: block;
+margin-top: 20px !important;
+width:auto;
+margin-top: 20px;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
